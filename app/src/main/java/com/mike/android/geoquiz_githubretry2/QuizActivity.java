@@ -87,6 +87,42 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onStart() {
+        Log.d(LOG_TAG, "onStart called");
+        super.onStart();
+    }
+
+    @Override
+    protected void onPause() {
+        Log.d(LOG_TAG, "onPause called");
+        super.onPause();
+    }
+
+    @Override
+    protected void onRestart() {
+        Log.d(LOG_TAG, "onRestart called");
+        super.onRestart();
+    }
+
+    @Override
+    protected void onResume() {
+        Log.d(LOG_TAG, "onResume called");
+        super.onResume();
+    }
+
+    @Override
+    protected void onStop() {
+        Log.d(LOG_TAG, "onStop called");
+        super.onStop();
+    }
+
+    @Override
+    protected void onDestroy() {
+        Log.d(LOG_TAG, "onDestroy called");
+        super.onDestroy();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_quiz, menu);
