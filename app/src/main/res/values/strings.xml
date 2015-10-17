@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">GeoQuiz_GitHubRetry2</string>
+    <string name="app_name">GeoQuiz</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Questions-->
+    <string name="question_1">Berlin is the capital of Germany</string>
+    <string name="question_2">Moskau is the capital of Poland</string>
+    <string name="question_3">Hawaii is the capital of Italy</string>
+
+    <!--Buttons-->
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="previous_button">Previous</string>
+
+    <!--Toasts-->
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
 </resources>
